@@ -127,7 +127,7 @@ class Tinylink(models.Model):
     )
 
     last_checked = models.DateTimeField(
-        default=timezone.now(),
+        default=timezone.now,
         verbose_name=_('Last validation'),
     )
 
